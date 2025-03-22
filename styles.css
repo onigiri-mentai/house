@@ -149,7 +149,7 @@ body {
 
 
 #price img {
-    width: 25%;
+    width: 50%;
     height: auto;
 }
 
@@ -245,12 +245,74 @@ body {
 }
 
 
+.form-section {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #f7fcfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+  
+  .form-section h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #007ea7;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-form span {
+    color: #e94e77;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0199ab;
+  }
+
+
 
 footer {
     margin: 0;
     background-color: #10c0d8;
     color: #fff;
     font-size: 13px;
+    bottom: 0;
 }
 
 
@@ -259,10 +321,21 @@ footer {
         font-size: 13px;
     }
 
-    .content {
-        width: auto;
+    body {
+        line-height: 2;
     }
     
+
+    .content {
+        background-repeat: repeat;
+        background-image: url(back2.png);
+        padding-top: 5rem;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+
+    }
+
     #voice img {
         width: 100%;
     }

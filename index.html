@@ -25,6 +25,8 @@
             <a class="main-menu" href="#voice">お客様の声</a>
             <a class="main-menu" href="#price">料金一覧</a>
             <a class="main-menu" href="#FAQ">よくある質問</a>
+            <a class="main-menu" href="#form">お問い合わせ</a>
+
         </nav>   
     </header>
 
@@ -40,9 +42,10 @@
         
 
         <div id="voice" class="cnt"><img src="img2.png" alt="" width="70%" height=""></div>
-
-        <div id="price"><img src="logo2.png" width="350" height="140"></div>
-            <div class="cnt">
+        
+        <div class="cnt">
+            <div id="price"><img src="logo2.png" width="350" height="140"></div>
+            
                 <table class="pricing-table">
                     <tr>
                         <th>サービス内容</th>
@@ -73,7 +76,7 @@
                         <td>￥15,000</td>
                     </tr>
                 </table>
-
+        
 
         
         <div id="FAQ"><img src="logo3.png" alt="" width="350" height="140"></div>
@@ -116,7 +119,36 @@
                 
 
             </div>
-    </div>
+        
+            
+            <section class="form-section" id="form">
+                <h2>お問い合わせ・ご予約</h2>
+                <form class="contact-form">
+                  <label>お名前<span>*</span></label>
+                  <input type="text" placeholder="例：山田 太郎" required>
+              
+                  <label>メールアドレス<span>*</span></label>
+                  <input type="email" placeholder="example@example.com" required>
+              
+                  <label>ご希望のサービス内容</label>
+                  <select>
+                    <option>キッチンクリーニング</option>
+                    <option>浴室クリーニング</option>
+                    <option>エアコンクリーニング</option>
+                    <option>換気扇・レンジフード</option>
+                  </select>
+              
+                  <label>ご希望日時</label>
+                  <input type="text" placeholder="例：4月15日 午前中">
+              
+                  <label>ご質問・ご要望など</label>
+                  <textarea placeholder="自由にご記入ください"></textarea>
+              
+                  <button type="submit">送信する（※ダミーです）</button>
+                </form>
+              </section>
+            
+        </div>
 
     <a href="#" class="gotop"></a>
 
