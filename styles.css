@@ -1,6 +1,7 @@
 html {
     font-size: 15px;
     width: 100%;
+    font-family:"Century Gothic", sans-serif;
 }
 
 header {
@@ -331,6 +332,7 @@ footer {
         background-image: url(back2.png);
         padding-top: 5rem;
         text-align: center;
+        align-items: center;
         width: 100%;
         margin: 0;
 
