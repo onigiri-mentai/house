@@ -25,8 +25,16 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     const hamburger = document.querySelector(".hamburger-menu");
     const nav = document.querySelector(".main-nav");
+    const overlay = document.querySelector(".overlay");
 
     hamburger.addEventListener("click", function() {
         nav.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+
+    // オーバーレイをクリックしたら閉じる
+    overlay.addEventListener("click", function() {
+        nav.classList.remove("active");
+        overlay.classList.remove("active");
     });
 });
