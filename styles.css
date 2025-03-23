@@ -170,6 +170,10 @@ body {
     padding: 0;
 }
 
+#voice_m {
+    display: none;
+}
+
 
 #price img {
     width: 50%;
@@ -366,9 +370,17 @@ footer {
 
     }
 
-    #voice img {
-        width: 100%;
+    
+    #voice {
+        display: none;
     }
+
+    #voice_m {
+        display: block;
+        width: 100%;
+        
+    }
+
 
     #price img {
         width: 50%;
