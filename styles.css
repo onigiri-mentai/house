@@ -359,4 +359,8 @@ footer {
         background-color: #fff;
     }
 
+    .gotop {
+        display: none;
+    }
+
 }
