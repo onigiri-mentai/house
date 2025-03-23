@@ -350,9 +350,10 @@ footer {
     .pricing-table {
         display: table;
         table-layout: auto;
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0 5rem;
+        width: 90%;
+        max-width: 600px;
+        border-collapse: co llapse;
+        margin: 0 auto;
         font-size: 1rem;
         text-align: left;
         background-color: #fff;
