@@ -87,7 +87,7 @@ header .main-menu:hover {
         flex-direction: column;
         position: absolute;
         z-index: 10;
-        top: 50px;
+        top: 45px;
         right: 0px;
         background-color: #fff;
         width: 200px;
@@ -153,9 +153,9 @@ body {
 }
 
 #about-cnt {
-    text-align: left;
+    text-align: center;
     margin: 0;
-    padding: 0 0 5rem;
+    padding: 0 3rem 5rem 3rem;
     line-height: 3;
 
 }
@@ -166,7 +166,7 @@ body {
 }
 
 #voice img{
-    width: 85%;
+    width: 100%;
     padding: 0;
 }
 
@@ -178,7 +178,7 @@ body {
 
 /*料金表*/
 .pricing-table {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     margin: 20px 0 5rem;
     font-size: 1rem;
@@ -201,11 +201,12 @@ body {
 #FAQ img {
     width: 50%;
     height: auto;
+    padding-top: 5rem;
 }
 
 /*よくある質問アコーディオン*/
 .faq-container {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 
