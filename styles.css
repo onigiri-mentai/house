@@ -346,4 +346,16 @@ footer {
     #price img {
         width: 50%;
     }
+
+    .pricing-table {
+        display: table;
+        table-layout: auto;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0 5rem;
+        font-size: 1rem;
+        text-align: left;
+        background-color: #fff;
+    }
+
 }
