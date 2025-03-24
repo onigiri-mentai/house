@@ -32,6 +32,16 @@ document.addEventListener("DOMContentLoaded", function() {
         overlay.classList.toggle("active");
     });
 
+    // メニュー内のリンクをクリックしたら閉じる
+    const menuLinks = document.querySelectorAll('.main-nav a');
+
+    menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+    });
+
     // オーバーレイをクリックしたら閉じる
     overlay.addEventListener("click", function() {
         nav.classList.remove("active");
